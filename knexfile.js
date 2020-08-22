@@ -1,3 +1,5 @@
+// This allows me to connect to my database 
+
 module.exports = {
 	development: {
 		client: "sqlite3",
@@ -12,4 +14,4 @@ module.exports = {
 			directory: "./data/seeds",
 		},
 	},
-}
+}					
